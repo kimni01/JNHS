@@ -1,0 +1,11 @@
+cd C:\Users\Administrator\Desktop
+mkdir python
+cd python
+
+py -0
+py -m venv shop
+
+.\shop\Scripts\Activate.ps1
+
+pip install cowsay
+pip install colorama 
