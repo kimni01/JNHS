@@ -3,6 +3,7 @@ mkdir python
 cd python
 
 py -0
+where.exe python
 py -m venv shop
 
 .\shop\Scripts\Activate.ps1
