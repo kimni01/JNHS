@@ -11,7 +11,7 @@ CREATE TABLE tbl_schedule (
     pk_schedule number(5) NOT NULL PRIMARY KEY,
     do_date DATE NOT NULL,
     do_memo VARCHAR(255) NOT NULL,
-    fk_member VARCHAR(5) NOT NULL
+    fk_member VARCHAR(5) NOT NULL,
     FOREIGN KEY (fk_member) REFERENCES tbl_member(pk_member)
 );
 
